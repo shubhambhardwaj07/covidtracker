@@ -8,6 +8,8 @@ body {
   display: flex;
   justify-content: space-evenly;
   padding: 20px;
+  max-width: 1250px;
+  margin: auto;
 }
 .app__header {
   display: flex;
@@ -29,5 +31,13 @@ body {
 @media (max-width: 990px) {
   .app {
     flex-direction: column;
+  }
+}
+.infoBox {
+  border-bottom: 5px solid #fc3c3c;
+}
+@media (min-width: 992px) {
+  .infoBox {
+    min-width: 220px;
   }
 }
