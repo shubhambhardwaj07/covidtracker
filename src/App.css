@@ -35,9 +35,11 @@ body {
 }
 .infoBox {
   border-bottom: 5px solid #fc3c3c;
+  min-height: 170px;
 }
 @media (min-width: 992px) {
   .infoBox {
     min-width: 220px;
+    min-height: auto;
   }
 }
